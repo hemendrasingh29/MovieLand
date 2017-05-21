@@ -1,10 +1,10 @@
-package com.example.hemendra.movieland.database;
+package com.example.hemendra.movieland.data;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.example.hemendra.movieland.database.MovieContract.MovieEntry;
+import com.example.hemendra.movieland.data.MovieContract.MovieEntry;
 /**
  * Created by hemendra on 3/18/2017.
  */

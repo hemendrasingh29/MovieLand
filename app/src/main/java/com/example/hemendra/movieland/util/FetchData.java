@@ -18,10 +18,8 @@ public class FetchData {
         HttpURLConnection con = null;
         String jsonData = "";
 
-
-
         try {
-            URL url = new URL("https://api.themoviedb.org/3/movie/"+movieCat+"?api_key=9f896648c9f266a78f90c9e049723d60");
+           URL url = new URL("https://api.themoviedb.org/3/movie/"+movieCat+"?api_key=9f896648c9f266a78f90c9e049723d60");
             con = (HttpURLConnection) url.openConnection();
             con.setRequestMethod("GET");
             BufferedReader br = new BufferedReader(new InputStreamReader(con.getInputStream()));

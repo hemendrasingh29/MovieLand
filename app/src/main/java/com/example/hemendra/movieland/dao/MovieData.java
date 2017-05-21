@@ -1,9 +1,11 @@
 package com.example.hemendra.movieland.dao;
 
+import java.io.Serializable;
+
 /**
  * Created by hemendra on 3/17/2017.
  */
-public class MovieData {
+public class MovieData implements Serializable {
     private String vote_average;
 
     private String movieCategory;
